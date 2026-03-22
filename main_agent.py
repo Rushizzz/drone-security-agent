@@ -47,5 +47,5 @@ def run_pipeline():
         )
         time.sleep(1)  # simulate processing time
 
-if __name__ == "__main__":
-    run_pipeline()
+# if __name__ == "__main__":
+#     run_pipeline()

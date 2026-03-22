@@ -51,21 +51,21 @@ def ask_agent(user_query):
 
     return response
 
-if __name__ == "__main__":
-    print("Welcome to the Drone Security Analyst Agent!")
-    print("Type 'exit' to quit.")
+# if __name__ == "__main__":
+#     print("Welcome to the Drone Security Analyst Agent!")
+#     print("Type 'exit' to quit.")
 
-    while True:
-        user_input = input("\n [Analyst Query] : ")
+#     while True:
+#         user_input = input("\n [Analyst Query] : ")
 
-        if user_input.lower() in ["exit", "quit", "q"]:
-            print("Closing connetion to drone memory")
-            break
+#         if user_input.lower() in ["exit", "quit", "q"]:
+#             print("Closing connetion to drone memory")
+#             break
 
-        if user_input.strip() == "":
-            print("Please enter a valid query.")
-            continue
+#         if user_input.strip() == "":
+#             print("Please enter a valid query.")
+#             continue
 
-        # Call the agent with the user's query
-        answer = ask_agent(user_input)
-        print(f"\n [Agent Response] : {answer}")     
+#         # Call the agent with the user's query
+#         answer = ask_agent(user_input)
+#         print(f"\n [Agent Response] : {answer}")     
