@@ -7,3 +7,4 @@ langchain-openai
 chromadb
 sentence-transformers
 opencv-python
+langchain-ollama
