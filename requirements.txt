@@ -1,10 +1,6 @@
-torch 
-torchvision 
-transformers 
-pillow 
-einops
-langchain-openai
+torch
+transformers
+pillow
 chromadb
-sentence-transformers
 opencv-python
 langchain-ollama

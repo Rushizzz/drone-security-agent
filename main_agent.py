@@ -3,6 +3,7 @@ import time
 from datetime import datetime
 import chromadb
 from vision_engine import get_vlm_description
+from extract_frames import extract_frames
 
 # setup chromadb for indexing
 client = chromadb.PersistentClient(path="./drone_db")
@@ -24,6 +25,7 @@ def analyze_and_alert(frame_data, description):
     return alerts
 
 def run_pipeline():
+
     with open("simulation_data.json", "r") as f:
         simulation_steps = json.load(f)
     
@@ -47,5 +49,5 @@ def run_pipeline():
         )
         time.sleep(1)  # simulate processing time
 
-# if __name__ == "__main__":
-#     run_pipeline()
+if __name__ == "__main__":
+    run_pipeline()
