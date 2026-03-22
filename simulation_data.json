@@ -1,26 +1,9 @@
 [
-  {
-    "frame_id": 1,
-    "timestamp": "2026-03-22T12:00:00",
-    "telemetry": {"location": "Garage", "altitude": "10m"},
-    "frame_description": "A blue Ford F150 is parked near the garage entrance."
-  },
-  {
-    "frame_id": 2,
-    "timestamp": "2026-03-22T12:05:00",
-    "telemetry": {"location": "Garage", "altitude": "10m"},
-    "frame_description": "The blue Ford F150 is driving away from the garage."
-  },
-  {
-    "frame_id": 3,
-    "timestamp": "2026-03-22T23:59:00",
-    "telemetry": {"location": "Main Gate", "altitude": "12m"},
-    "frame_description": "Area clear. No movement detected."
-  },
-  {
-    "frame_id": 4,
-    "timestamp": "2026-03-23T00:01:00",
-    "telemetry": {"location": "Main Gate", "altitude": "12m"},
-    "frame_description": "A person in a dark hoodie is loitering near the fence at the main gate."
-  }
+  {"frame_id": 0, "timestamp": "2026-03-22T12:00:00", "location": "Main Gate", "image": "extracted_frames/frame_0.jpg"},
+  {"frame_id": 1, "timestamp": "2026-03-22T12:00:01", "location": "Main Gate", "image": "extracted_frames/frame_1.jpg"},
+  {"frame_id": 2, "timestamp": "2026-03-22T12:00:02", "location": "Driveway", "image": "extracted_frames/frame_2.jpg"},
+  {"frame_id": 3, "timestamp": "2026-03-22T12:00:03", "location": "Garage", "image": "extracted_frames/frame_3.jpg"},
+  {"frame_id": 4, "timestamp": "2026-03-23T00:01:00", "location": "Main Gate", "image": "extracted_frames/frame_4.jpg"},
+  {"frame_id": 5, "timestamp": "2026-03-23T00:01:01", "location": "Main Gate", "image": "extracted_frames/frame_5.jpg"},
+  {"frame_id": 6, "timestamp": "2026-03-23T00:01:02", "location": "Main Gate", "image": "extracted_frames/frame_6.jpg"}
 ]
