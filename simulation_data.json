@@ -1,0 +1,26 @@
+[
+  {
+    "frame_id": 1,
+    "timestamp": "2026-03-22T12:00:00",
+    "telemetry": {"location": "Garage", "altitude": "10m"},
+    "frame_description": "A blue Ford F150 is parked near the garage entrance."
+  },
+  {
+    "frame_id": 2,
+    "timestamp": "2026-03-22T12:05:00",
+    "telemetry": {"location": "Garage", "altitude": "10m"},
+    "frame_description": "The blue Ford F150 is driving away from the garage."
+  },
+  {
+    "frame_id": 3,
+    "timestamp": "2026-03-22T23:59:00",
+    "telemetry": {"location": "Main Gate", "altitude": "12m"},
+    "frame_description": "Area clear. No movement detected."
+  },
+  {
+    "frame_id": 4,
+    "timestamp": "2026-03-23T00:01:00",
+    "telemetry": {"location": "Main Gate", "altitude": "12m"},
+    "frame_description": "A person in a dark hoodie is loitering near the fence at the main gate."
+  }
+]
