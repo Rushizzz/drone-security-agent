@@ -49,7 +49,7 @@ The system follows a modular pipeline architecture:
 
 1. **Clone the repository**:
    ```bash
-   git clone <your-private-repo-url>
+   git clone https://github.com/Rushizzz/drone-security-agent.git
    cd drone-security-agent
    ```
 
@@ -209,4 +209,4 @@ For comprehensive testing, run the pipeline and verify:
 
 ## License
 
-This project is confidential and intended for evaluation purposes only.
+This project is licensed under the [Apache License 2.0](LICENSE).
